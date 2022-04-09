@@ -242,7 +242,7 @@ section {
 }
 /* Страница Portforlio */
 .portfolio-menu {
-  padding: 94px 0 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
 }
