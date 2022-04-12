@@ -22,6 +22,7 @@ body {
 }
 .header {
   padding: 24px 0 24px;
+  border-bottom: 1px solid #ececec
 }
 .section {
     padding: 94px 0;
@@ -57,7 +58,7 @@ body {
 }
 .menu-list {
   display: flex;
-  padding-left: 97px;
+  padding-left: 93px;
 }
 .menu a {
   color: var(--link-color);
@@ -170,7 +171,7 @@ body {
   text-align: center;
 }
 .what-we-do {
-  padding-top: 94px;
+  padding: 94px 0;
 }
 .what-we-do-list {
   margin: 50px 0 0;
@@ -248,7 +249,7 @@ body {
 }
 /* Страница Portforlio */
 .portfolio-menu {
-  margin: 94px 0 50px;
+  padding: 94px 0 50px;
   display: flex;
   justify-content: center;
 }
@@ -286,15 +287,18 @@ body {
   background-color: var(--hover-blue-color);
   color: var(--white-color);
 }
+.portfolio-list-item-textcontent {
+  padding: 20px 24px;
+}
 .portfolio-name {
-  padding: 20px 24px 0;
+  /* padding: 20px 24px 0; */
   font-style: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: calc(1em / 16.6666);
 }
 .portfolio-type {
-  padding: 4px 24px 20px;
+  padding-top: 4px;
   color: var(--gray-color);
   font-size: 16px;
   line-height: 1.87;
