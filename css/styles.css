@@ -142,6 +142,9 @@ body {
   line-height: 1.71;
   letter-spacing: calc(1em / 33);
 }
+.benefits-description {
+  padding-top: 10px;
+}
 /* .benefits-inner {
   padding-top: 94px;
 } */
@@ -249,7 +252,6 @@ body {
 }
 /* Страница Portforlio */
 .portfolio-menu {
-  padding: 94px 0 50px;
   display: flex;
   justify-content: center;
 }
@@ -260,7 +262,7 @@ body {
   padding-right: 8px;
 }
 .portfolio {
-  /* padding: 0 -15px; */
+  padding: 94px 0 64px;
 }
 .portfolio button {
   padding: 6px 22px;
@@ -307,7 +309,7 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 64px;
+  margin-top: 50px;
 }
 /* .portfolio-list-item-card {
     border: 1px solid #eeeeee;
